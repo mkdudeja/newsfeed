@@ -1,0 +1,17 @@
+{
+  "name": "herm-mock-news-server",
+  "version": "1.0.1",
+  "description": "Mock server that spews random headlines over WebSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^2.0.8",
+    "ulid": "^3.0.0",
+    "ws": "^8.16.0"
+  },
+  "author": "Roger So <roger@hermeneutic.investments>",
+  "license": "UNLICENSED"
+}
